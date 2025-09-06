@@ -16,9 +16,10 @@ public:
             } 
             else {
                 // Convert string number to int
-                st.push(stoi(t));
+                st.push(stoi(t)); // also int num = ch - '0' is working
             }
         }
         return st.top();
     }
 };
+
