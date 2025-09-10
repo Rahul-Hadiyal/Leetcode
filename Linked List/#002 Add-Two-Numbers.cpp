@@ -10,7 +10,7 @@
  */
 class Solution {
     public:
-    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
+    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) { // in linked list
     if (!l1) return l1;
     if (!l2) return l2;
 
@@ -43,4 +43,5 @@ class Solution {
     }
     return head;
     }
+
 };
